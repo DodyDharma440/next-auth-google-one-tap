@@ -49,8 +49,6 @@ const OneTapLogin = () => {
     }
   }, [router, session, showPopup]);
 
-  console.log(session);
-
   return (
     <div
       id="one-tap-popup"
